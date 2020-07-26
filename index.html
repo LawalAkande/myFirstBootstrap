@@ -1,0 +1,511 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="javaScript.js"></script>
+    <link rel="stylesheet" href="css.css">
+    
+    <title>Bootstrap 1</title>
+    <style>
+        body{
+            height: 2000%;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button class="btn btn-danger">Button 1</button>
+        <h1>Lawal</h1>
+        <h1><small>Lawal</small></h1>
+    
+    
+        <img src="images/javascriptLogo.PNG" class="rounded" style="width: 50; height: 50;">
+        <img src="images/facebookLogo.PNG" class="rounded" style="width: 50; height: 50;">
+    
+        <br>
+        <hr>
+        <!-- Typography -->
+    
+        <h4 class="font-weight-lighter">Typography</h4>
+        <p>Lawal</p>
+        <p class="font-weight-bold">Lawal</p>
+        <p class="display-4">Lawal</p>
+        <p class="font-weight-light">Lawal</p>
+    
+        <hr>
+        <!-- Inline list -->
+    
+        <h4 class="font-weight-lighter">Inline list</h4>
+        <ul class="list-inline text-uppercase bg-dark text-white p-3">
+            <li class="list-inline-item"><a href="#" style="text-decoration: none;">Lawal</a></li>
+            <li class="list-inline-item">Saliou</li>
+            <li class="list-inline-item">Akande</li>
+            <li class="list-inline-item">Adewale</li>
+        </ul>
+    
+        <hr>
+        <!-- Ordered list-->
+        <h4 class="font-weight-lighter">Ordered list</h4>
+        <ol type="A">
+            <li>Lawal</li>
+            <li>Saliou</li>
+            <li>Akande</li>
+            <li class="text-success">Adewale <a href="#" class="text-reset">Link</a></li>
+        </ol>
+    
+        <hr>
+        <!-- Alert -->
+        <h4 class="font-weight-light">Alert</h4>
+        <div class="alert alert-danger">
+            Lawal is a graduate.
+        </div>
+        <div class="alert alert-warning alert-dismissible">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            Lawal is a graduate.
+        </div>
+
+        <div class="alert alert-danger alert-dismissible">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            You input wrong data...
+        </div>
+    
+        <hr>
+        <!-- Button -->
+        <h4 class="container font-weight-lighter">Button</h4>
+    
+        <button class="btn btn-danger">Button 1</button>
+        <button class="btn btn-outline-success">Button 2</button>
+        <a href="#" class="btn btn-outline-info">Buttton 3</a><br><br>
+        <a href="#" class="btn btn-outline-info btn-block">Buttton 4</a><br>
+        <button class="btn btn-primary"><span class="spinner-border spinner-border-sm"></span> Button 5</button>
+    
+        <br><br>
+        <hr>
+        <!-- Buttton group-->
+        <h4 class="container font-weight-lighter">Button group</h4>
+    
+        <div class="btn-group">
+            <button class="btn btn-outline-success">Button 2</button>
+            <button class="btn btn-success">Button 1</button>
+            <a href="#" class="btn btn-outline-info">Buttton 3</a>
+            <div class="btn-group">
+                <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">Button 4</button>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">Link 1</a>
+                    <a href="#" class="dropdown-item">Link 2</a>
+                    <a href="#" class="dropdown-item">Link 3</a>
+                    <a href="#" class="dropdown-item">Link 4</a>
+                    <a href="#" class="dropdown-item">Link 5</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="btn-group">
+            <button type="button" class="btn btn-block btn-outline-info dropdown-toggle" data-toggle="dropdown">MyDropdown toggle</button>
+            <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Lawal</a>
+                <a href="#" class="dropdown-item">Lawal</a>
+                <a href="#" class="dropdown-item">Lawal</a>
+                <a href="#" class="dropdown-item">Lawal</a>
+            </div>
+        </div>
+    
+        <hr>
+        <!-- Table -->
+        <h4 class="font-weight-lighter">Table</h4>
+        <table class="table table-bordered table-hover">
+            <thead class="table-success text-dark">
+                <tr>
+                    <th>Lawal</th>
+                    <th>Saliou</th>
+                    <th>Akande</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sam</td>
+                    <td>Lam</td>
+                    <td>Tam</td>
+                </tr>
+                <tr>
+                    <td>Pam</td>
+                    <td>Ram</td>
+                    <td>Wam</td>
+                </tr>
+                <tr>
+                    <td>Pam</td>
+                    <td>Ram</td>
+                    <td>Wam</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- badge -->
+        <h4 class="font-weight-lighter">Badge</h4>
+        <h1>This is a sample of <span class="badge badge-info badge-pill">badge</span></h1>
+        
+        <!-- Progress -->
+        <h4 class="font-weight-lighter">Progress</h4>
+        <div class="progress">
+            <div class="progress-bar text-center text-white" style="width: 30%; background-color: blue;">30%</div>
+        </div>
+        <br>
+        <div class="progress">
+            <div class="progress-bar-striped text-center text-white bg-success" style="width: 20%;">20%</div>
+        </div>
+        <br>
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated text-center text-white bg-info" style="width: 50%;">50%</div>
+        </div>
+        <br>
+        <div class="progress">
+            <div class="progress-bar bg-dark" style="width: 70%;">70%</div>
+        </div>
+        <br>
+        <div class="progress">
+            <div class="progress-bar bg-primary" style="width: 90%;">90%</div>
+        </div>
+        <hr>
+        <!-- Pagination -->
+        <h4 class="font-weight-lighter">Pagination</h4>
+        <ul class="pagination justify-content-center">
+            <li class="page-item"><a href="#" class="page-link">&#171;</a></li>
+            <li class="page-item"><a href="#" class="page-link">1</a></li>
+            <li class="page-item active"><a href="#" class="page-link">2</a></li>
+            <li class="page-item"><a href="#" class="page-link">3</a></li>
+            <li class="page-item"><a href="#" class="page-link">4</a></li>
+            <li class="page-item"><a href="#" class="page-link">&#187;</a></li>
+        </ul>
+        <hr>
+        <!-- Card -->
+        <h4 class="font-weight-lighter">Card</h4>
+        <div class="card" style="width: 300px;">
+           <img src="images/blueSuit.jpg" alt="myself in Blue Suit" class="card-img-top" style="width: 100%;">
+            <div class="card-body">
+                <p class="card-title">Mr Lawal</p>
+                <p class="card-text">I'm a young programmer</p>
+            </div>
+            <a href="#" class="btn btn-block btn-success">Submit</a>
+        </div>
+        <hr>
+        <!-- Dropdown -->
+        <h4 class="font-weight-lighter">dropdown</h4>
+        <div class="dropdown">
+            <button class="btn btn-danger dropdown-toggle" data-toggle="dropdown">MyDropdown</button>
+            <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Link 1</a>
+                <a href="#" class="dropdown-item">Link 2</a>
+                <a href="#" class="dropdown-item">Link 3</a>
+                <a href="#" class="dropdown-item">Link 4</a>
+                <a href="#" class="dropdown-item">Link 5</a>
+            </div>
+        </div>
+        <hr>
+        <!-- Collapse-->
+        <h4 class="font-weight-lighter">Collapse</h4>
+        <button type="button" class="btn btn-outline-success" data-toggle="collapse" data-target="#demo1">Simple collapsible</button>
+        <div id="demo1" class="container collapse show border pt-2 bg-dark text-white">
+            <h3>Lawal</h3>
+            <P>I'm still learning ...</P>
+            <P>I'm still learning ...</P>
+        </div>
+        <hr>
+
+        <!-- MyAccordion -->
+        <h4 class="font-weight-lighter">Accordion</h4>
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header">
+                    <a href="#col1" class="collapsed card-link" data-toggle="collapse">Lawal</a>
+                </div>
+                <div id="col1" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        <h3>Proverbe</h3>
+                        <p>Birds of the same feather flock together...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <a href="#col2" class="collapsed card-link" data-toggle="collapse">Saliou</a>
+                </div>
+                <div id="col2" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        <h3>Proverbe 2</h3>
+                        <p>What goes around comes around...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <hr>
+        <!-- Navbar -->
+        <h4 class="font-weight-lighter">Navbar</h4>
+        <ul class="nav nab-tabs" role="tablist">
+            <li class="nav-item"><a href="#" class="nav-link">Lawal</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Sam</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Law</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Fre</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Pop</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Kok</a></li>
+        </ul>
+        <ul class="nav">
+            <li class="nav-item"><a href="#" class="nav-link">Lawal</a></li>
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Akande</a>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">Link 1</a>
+                    <a href="#" class="dropdown-item">Link 2</a>
+                    <a href="#" class="dropdown-item">Link 3</a>
+                    <a href="#" class="dropdown-item">Link 4</a>
+                    <a href="#" class="dropdown-item">Link 5</a>
+                </div>
+                <li class="nav-item"><a href="#" class="nav-link">Saliou</a></li>
+    
+            </li>
+        </ul>
+        <hr>    
+    </div>
+        <!-- Toggleables Tabs-->
+    <div class="container">
+        <h4 class="font-weight-lighter">Toggleables Tabs</h4>
+        <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item"><a href="#lawal" class="nav-link" data-toggle="tab">Lawal</a></li>
+            <li class="nav-item"><a href="#saliou" class="nav-link" data-toggle="tab">Saliou</a></li>
+            <li class="nav-item"><a href="#akande" class="nav-link" data-toggle="tab">Akande</a></li>
+        </ul>
+        <div class="tab-content">
+            <div id="lawal" class="container tab-pane active">
+                <br>
+                <h3>Lawal</h3>
+                <p>This is my Surname</p>
+            </div>
+            <div id="saliou" class="container tab-pane fade">
+                <br>
+                <h3>Saliou</h3>
+                <p>This is my Firstname</p>
+            </div>
+            <div id="akande" class="container tab-pane fade">
+                <br>
+                <h3>Akande</h3>
+                <p>This is my Middlename</p>
+            </div>
+        </div>
+
+        <!-- Toggleables Tabs-->
+        <ul class="nav nav-pills" role="tablist">
+            <li class="nav-item"><a href="mat" class="nav-link" data-toggle="pill">Mat</a></li>
+            <li class="nav-item"><a href="sat" class="nav-link" data-toggle="pill">Sat</a></li>
+            <li class="nav-item"><a href="pat" class="nav-link" data-toggle="pill">Pat</a></li>
+        </ul>
+        <div class="tab-content">
+            <div id="mat" class="container pill active">
+                <h3>Lawal</h3>
+                <p>This is my Surname</p>
+            </div>
+            <div id="sat" class="container pill fade">
+                <h3>Saliou</h3>
+                <p>This is my Firstname</p>
+            </div>
+            <div id="pat" class="container pill fade">
+                <h3>Akande</h3>
+                <p>This is my Middlename</p>
+            </div>
+        </div>
+    
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
+            <a href="#" class="navbar-brand"><img src="images/javascriptLogo.PNG" alt="JavaScript Logo" style="width:100px"></a>
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="#" class="nav-link">Lawal</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Saliou</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Akande</a></li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Faculties</a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Faculty of Arts</a>
+                        <a href="#" class="dropdown-item">Faculty of Science</a>
+                        <a href="#" class="dropdown-item">Faculty of Education</a>
+                        <a href="#" class="dropdown-item">Faculty of Law</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline" action="action/php">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="search...">
+                    <div class="input-group-append">
+                        <span class="input-group-text"><i class="fa fa-search"></i></span>
+                    </div>
+                </div> 
+            </form>
+        </nav>
+
+        <!-- form -->
+        <h4 class="font-weight-lighter">Form</h4>
+        <div class="justify-content-center">
+            <form action="action/php">
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" placeholder="Enter your email..">         
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" class="form-control" placeholder="Enter your password">
+                </div>
+                <div class="form-group form-check">
+                    <label for="form-check-label">
+                        <input type="checkbox" class="form-check-input"> Remember me
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label for="comment">Comment:</label>
+                    <textarea class="form-control" rows="5" id="comment"></textarea>
+                </div>
+                <button type="submit" name="submit" class="btn btn-outline-success">Submit</button>
+    
+            </form>
+        </div>
+        <hr>
+        <br>
+        <button class="btn btn-info" onclick="myFunction1()">Click me</button>
+        <p id="myId">What is today's date?</p>
+
+        <!-- Clearfix -->
+        <div class="clearfix" style="height: 200px;">
+            <div class="float-letf w-50 h-25 bg-warning ">Sam</div>
+            <div class="float-right ">Lam</div>
+        </div>
+
+        <!-- Bootstrap Grid-->
+        <div class="row">
+            <div class="col-sm-4">
+                <h3>Les voix au Benin sont tous butumées:</h3>
+            </div>
+            <div class="col-sm-4">
+                <h3>Les voix au Benin sont tous butumées:</h3>
+            </div>
+            <div class="col-sm-4">
+                <h3>Les voix au Benin sont tous butumées:</h3>
+            </div>
+        </div>
+
+        
+    </div>
+
+   
+        <!-- Caroucel -->
+        <h3 class="font-weight-lighter">Caroucel</h3>
+        <div id="lemo" class="carousel slide" data-ride="carousel">
+            
+            <!--caroucel Indicators-->
+            <ul class="carousel-indicators">
+                <li data-target="#lemo" data-slide-to="0" class="active"></li>
+                <li data-target="#lemo" data-slide-to="1"></li>
+                <li data-target="#lemo" data-slide-to="2"></li>
+            </ul>
+
+            <!--the slideshow-->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/a.jpg" alt="image_a" width="100%">
+                </div>
+                
+                <div class="carousel-item">
+                    <img src="images/b.jpg" alt="image_b" width="100%">
+                </div>
+                                   
+                <div class="carousel-item">
+                    <img src="images/c.jpg" alt="image_c" width="100%">
+                </div>
+                                  
+            </div>
+
+            <!--left and right controls-->
+            <a href="#lemo" class="carousel-control-prev" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#lemo" class="carousel-control-next" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+            <br>
+            <br>
+            <br>
+        </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-2" style="background-color: gray">
+                
+            </div>
+            <div class="col-sm-4 " style="background-color: gray">
+                <img src="images/blueSuit.jpg" alt="Me in blue Suit" style="width: 100%;">
+            </div>
+            <div class="col-sm-6 x-auto" style="background-color: gray; padding-top: 20px">
+                    <h5>Consider two algorithms for reducing costs.</h5>
+                    <br>
+                    <h6>David F.</h6>
+                    <p>DEVELOPER</p>
+                
+            </div>
+        </div>
+    </div>  
+    <br>
+    <nav class="navbar navbar-expand-sm sticky-top" style=" background: rgb(0, 0, 0);">
+        <a href="#" class="navbar-brand"><h1>Logo</h1></a>
+        <button type="button" class="navbar-toggler navbar-toggler-right collapsed" data-toggle="collapse" data-target="#navb" aria-expanded="true">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navb" class="navbar-collapse collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a href="#" class="nav-link">Link 1</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Link 2</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Link 3</a></li>
+            </ul>
+            <form class="form inline" action="action/php">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search...">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-success">Go</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </nav>
+    <p>Lawal</p>
+    <p>Lawal</p>
+    <p>Lawal</p>
+    <p>Lawal</p>
+    <p>Lawal</p>
+    <p>Lawal</p>
+    <p>Lawal</p>
+    <p>Lawal</p>
+    <p>Lawal</p>
+    <p>Lawal</p>
+    <p>Lawal</p>
+    <p>Lawal</p>
+    <p>Lawal</p>
+    <p>Lawal</p>
+    <p>Lawal</p>
+    <p>Lawal</p>
+    <p>Lawal</p>
+    <p>Lawal</p>
+    <p>Lawal</p>
+    <p>Lawal</p>
+    <p>Lawal</p>
+    <p>Lawal</p>
+    <p>Lawal</p>
+    <p>Lawal</p>
+    <p>Lawal</p>
+    <p>Lawal</p>
+    <p>Lawal</p>
+    <p>Lawal</p>
+    <p>Lawal</p>
+
+    
+</body>
+</html>
